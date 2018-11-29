@@ -1,8 +1,13 @@
 {
   "stacks": [
     {
-      "item": "starterkit:starterkit",
-      "count": 1
+      "item": "minecraft:written_book",
+      "count": 1,
+      "nbt": {
+        "title": "Atlas Shrugged",
+        "author": "Ayn Rand",
+        "pages": ["\"Who is John Gait?\"\n\nThe light was ebbing, and Eddie Willers could not distinguish the bum\'s face. The bum had said it simply, without expression. But from the sunset far at the end of the street, yellow glints caught his eyes, and the eyes looked straight at Eddie Willers, mocking and still— as if the question had been addressed to the causeless uneasiness within him."]
+      }
     }
   ],
   "commands": []
