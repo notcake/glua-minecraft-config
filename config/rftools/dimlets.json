@@ -1,4 +1,42 @@
 [
+  {
+    "filter": {
+      "mod": "thermalfoundation",
+      "name": [
+        "storage",
+        "storage_alloy",
+        "storage_resource"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 60000,
+      "maintain": 15000,
+      "ticks": 750,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "mekanism",
+      "name": "basicblock",
+      "meta": [
+        12,
+        13
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 60000,
+      "maintain": 15000,
+      "ticks": 750,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
   "Everything below this line will be regenerated from defaults every time. Remove this line if you do not want that",
   {
     "filter": {
