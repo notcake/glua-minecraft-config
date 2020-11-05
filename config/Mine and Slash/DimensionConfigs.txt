@@ -27,9 +27,9 @@
         "z": 0,
         "y": 0
       },
-      "MOB_LEVEL_PER_DISTANCE": 125,
+      "MOB_LEVEL_PER_DISTANCE": 500,
       "MOB_LEVEL_ONE_AREA": 50,
-      "MAXIMUM_MOB_LEVEL": 100,
+      "MAXIMUM_MOB_LEVEL": 10,
       "MINIMUM_MOB_LEVEL": 1,
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": false,
