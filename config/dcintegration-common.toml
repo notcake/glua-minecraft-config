@@ -8,7 +8,7 @@
 	botChannel = "000000000"
 	#Enable checking for updates?
 	#Notification will be shown after every server start in log when update is available
-	enableUpdateChecker = true
+	enableUpdateChecker = false
 	#The minimum release type for the update checker to notify
 	#Allowed Values: alpha, beta, release
 	updateCheckerMinimumReleaseType = "beta"
@@ -47,7 +47,7 @@
 	#Should discord linking be enabled?
 	#If whitelist is on, this can not be disabled
 	#DOES NOT WORK IN OFFLINE MODE!
-	allow-linking = true
+	allow-linking = false
 
 #Customize messages of this mod
 [messages]
@@ -68,10 +68,10 @@
 	formattingCodesToDiscord = false
 	#Message to show while the server is starting
 	#This will be edited to SERVER_STARTED_MSG when webhook is false
-	msgServerStarting = "Server Starting..."
+	msgServerStarting = "Server starting..."
 	#The message to print to discord when it was possible to detect a server crash
 	#Will also be used in the channel description
-	msgServerCrash = "Server Crash Detected :thinking:"
+	msgServerCrash = "Server crash detected."
 	#Sent when attempting to whitelist-link with an non uuid string
 	#PLACEHOLDERS:
 	#%arg% - The provided argument
@@ -99,11 +99,11 @@
 	#%user% - The username
 	#%id% - The user ID
 	#%msg% - The Message
-	ingameDiscordMsg = "§6[§5DISCORD§6]§r <%user%> %msg%"
+	ingameDiscordMsg = "<%user%> %msg%"
 	#Sent when setting an personal setting fails
 	settingUpdateFailedMessage = "Failed to set value :/"
 	#Should tamed entity death be visible in discord?
-	tamedDeathEnabled = false
+	tamedDeathEnabled = true
 	#PLACEHOLDERS:
 	#%player% - The player´s name
 	msgPlayerJoin = "%player% joined"
@@ -144,7 +144,7 @@
 	NANLinkNumberMessage = "Personal Settings list:"
 	#Prevent sending MC color codes from Discord to server chat?
 	#Does not disable Markdown to minecraft conversion!
-	preventDiscordFormattingCodesToMC = false
+	preventDiscordFormattingCodesToMC = true
 	#The format of the uptime command and %uptime% placeholder
 	#For more help with the formatting visit https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/time/DurationFormatUtils.html
 	#Note: The use of precise values like seconds might cause rate limits
@@ -173,7 +173,8 @@
 	#Requires server restart
 	enableHelpCommand = true
 	#You MUST op this UUID in the ops.txt or many commands won't work!!
-	senderUUID = "8d8982a5-8cf9-4604-8feb-3dd5ee1f83a3"
+	# cb4e59ae-5498-487f-8a5e-b168595ff55a = mcd1992
+	senderUUID = "cb4e59ae-5498-487f-8a5e-b168595ff55a"
 	#The prefix of the commands like list
 	prefix = "/"
 	#Header of the help command
@@ -212,7 +213,7 @@
 	#Message sent when user does not have permission to run a command
 	msgNoPermission = "You don´t have permission to execute this command!"
 	#The message for 'list' when no player is online
-	msgListEmpty = "There is no player online..."
+	msgListEmpty = "There are no players online."
 	#Message if a player provides less arguments than required
 	msgNotEnoughArgs = "Not enough arguments"
 	#Message sent when an invalid command was typed
@@ -232,7 +233,7 @@
 	#The message shown when hovering the /discord command message
 	dcCmdMsgHover = "Click to open the invite url"
 	#Enable the /discord command?
-	dcCmdEnabled = true
+	dcCmdEnabled = false
 
 #Configure Advanced features like moving specific message types to different channels
 [advanced]
