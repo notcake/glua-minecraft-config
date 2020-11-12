@@ -27,7 +27,7 @@
 		#Range: > 0
 		delay = 3
 		#Enable command: /back
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
 		enable_on_death = true
@@ -76,9 +76,9 @@
 		#Range: > 0
 		cooldown = 0
 		#Range: > 1
-		limit = 3
+		limit = 1
 		#Range: > 1
-		limit_op = 5
+		limit_op = 1
 
 	[Commands.hat]
 		#Enable command: /hat
@@ -136,8 +136,8 @@
 
 	[Commands.kits]
 		#Enable command: /kit
-		enable = true
-		starting_kit = true
+		enable = false
+		starting_kit = false
 		starting_kit_name = "tools"
 
 	[Commands.trash]
@@ -154,7 +154,7 @@
 
 	[Commands.tpall]
 		#Enable command: /tpall
-		enable = true
+		enable = false
 
 	[Commands.spawn]
 		#Range: > 0
