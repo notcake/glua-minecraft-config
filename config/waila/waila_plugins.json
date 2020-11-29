@@ -63,6 +63,6 @@
     "show_registry": false,
     "show_states": false,
     "show_entity_hp": true,
-    "show_entities": true
+    "show_entities": false
   }
 }
