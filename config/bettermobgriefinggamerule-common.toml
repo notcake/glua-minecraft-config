@@ -8,45 +8,45 @@
 [entity]
 	#The default entity specific mobGriefing rules which will be used when creating a newworld or opening an existing world with no existing rule for the entity.
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:blaze" = "INHERIT"
+	"minecraft:blaze" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:creeper" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:drowned" = "INHERIT"
+	"minecraft:drowned" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:ender_dragon" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:enderman" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:evoker" = "INHERIT"
+	"minecraft:evoker" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:fox" = "INHERIT"
+	"minecraft:fox" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:ghast" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:husk" = "INHERIT"
+	"minecraft:husk" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:rabbit" = "INHERIT"
+	"minecraft:rabbit" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:ravager" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:sheep" = "INHERIT"
+	"minecraft:sheep" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:silverfish" = "INHERIT"
+	"minecraft:silverfish" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:skeleton" = "INHERIT"
+	"minecraft:skeleton" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:snow_golem" = "INHERIT"
+	"minecraft:snow_golem" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:stray" = "INHERIT"
+	"minecraft:stray" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:villager" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:wither" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:zombie" = "INHERIT"
+	"minecraft:zombie" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:zombie_pigman" = "INHERIT"
+	"minecraft:zombie_pigman" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:zombie_villager" = "INHERIT"
+	"minecraft:zombie_villager" = "TRUE"
 
