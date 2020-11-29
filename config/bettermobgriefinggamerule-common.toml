@@ -2,7 +2,7 @@
 #Default Global Rule
 [global]
 	#The default global mobGriefing value which will be used when creating a new world.
-	mobGriefing = true
+	mobGriefing = false
 
 #Default Entity Rules
 [entity]
@@ -40,7 +40,7 @@
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:stray" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:villager" = "INHERIT"
+	"minecraft:villager" = "TRUE"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:wither" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
