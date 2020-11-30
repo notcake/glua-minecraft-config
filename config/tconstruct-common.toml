@@ -8,7 +8,7 @@
 	#If true all material variants of the different parts will be listed in creative. Set to false to only have the first found material for all parts (usually wood).
 	listAllPartMaterials = true
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = true
+	shouldSpawnWithTinkersBook = false
 	#If true all material variants of the different tools will be listed in creative. Set to false to only have the first found material for all tools (usually wood).
 	listAllToolMaterials = true
 	#Blacklist of registry names or TE class names for the crafting station to connect to. Mainly for compatibility.
