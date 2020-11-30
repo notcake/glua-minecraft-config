@@ -86,7 +86,7 @@
 		#.
 		LOG_REGISTRY_ENTRIES = false
 		#.
-		DISABLE_VANILLA_HP_REGEN = true
+		DISABLE_VANILLA_HP_REGEN = false
 		#.
 		#Range: 0.0 ~ 100000.0
 		REPAIR_FUEL_NEEDED_MULTI = 1.0
