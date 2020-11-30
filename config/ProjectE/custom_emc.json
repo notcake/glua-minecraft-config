@@ -1,4 +1,12 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "minecraft:charcoal",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:elytra",
+      "emc": 524288
+    }
+  ]
 }
