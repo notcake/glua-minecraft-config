@@ -36,7 +36,7 @@
 
 	[SERVER.GENERAL]
 		#.
-		ONLY_REPAIR_IN_STATION = true
+		ONLY_REPAIR_IN_STATION = false
 		#This makes mobs increasingly stronger, by default at lvl 100 mobs will be 50% stronger, formula works as multiplying by 1 + [CONFIG_VALUE]
 		#Range: 0.0 ~ 1.0
 		MOB_STRENGTH_PER_LEVEL_MULTI = 0.004999999888241291
