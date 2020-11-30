@@ -197,7 +197,7 @@
 		#Range: 0 ~ 100000
 		MAX_TOTAL_STATS = 200
 		#This automatically makes items compatible that i can recognize automatically, meaning they extend from vanilla classes.
-		ENABLE_AUTOMATIC_COMPATIBLE_ITEMS = false
+		ENABLE_AUTOMATIC_COMPATIBLE_ITEMS = true
 		#Range: 0 ~ 100000
 		MAX_SINGLE_STAT_VALUE = 50
 
